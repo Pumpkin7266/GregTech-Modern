@@ -119,21 +119,6 @@ public class GTItems {
     public static ItemEntry<Item> CREDIT_NEUTRONIUM = REGISTRATE.item("neutronium_credit", Item::new)
             .lang("Neutronium Credit").properties(p -> p.rarity(Rarity.EPIC))
             .register();
-    public static ItemEntry<Item> COIN_GOLD_ANCIENT = REGISTRATE.item("ancient_gold_coin", Item::new)
-            .lang("Ancient Gold Coin").properties(p -> p.rarity(Rarity.RARE))
-            .onRegister(materialInfo(new ItemMaterialInfo(new MaterialStack(GTMaterials.Gold, GTValues.M / 4))))
-            .register();
-    public static ItemEntry<Item> COIN_DOGE = REGISTRATE.item("doge_coin", Item::new).lang("Doge Coin")
-            .properties(p -> p.rarity(Rarity.EPIC))
-            .onRegister(materialInfo(new ItemMaterialInfo(new MaterialStack(GTMaterials.Brass, GTValues.M / 4))))
-            .register();
-    public static ItemEntry<ComponentItem> COIN_CHOCOLATE = REGISTRATE.item("chocolate_coin", ComponentItem::create)
-            .lang("Chocolate Coin")
-            .properties(p -> p.rarity(Rarity.EPIC))
-            .onRegister(attach(new FoodStats(GTFoods.CHOCOLATE, false,
-                    () -> ChemicalHelper.get(TagPrefix.foil, GTMaterials.Gold))))
-            .onRegister(materialInfo(new ItemMaterialInfo(new MaterialStack(GTMaterials.Gold, GTValues.M / 4))))
-            .register();
     public static ItemEntry<Item> COMPRESSED_CLAY = REGISTRATE.item("compressed_clay", Item::new)
             .lang("Compressed Clay")
             .onRegister(materialInfo(new ItemMaterialInfo(new MaterialStack(GTMaterials.Clay, GTValues.M)))).register();
