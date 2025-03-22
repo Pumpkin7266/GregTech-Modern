@@ -74,7 +74,7 @@ public class GTCreativeModeTabs {
             .register();
     public static RegistryEntry<CreativeModeTab> ITEM = REGISTRATE.defaultCreativeTab("item",
             builder -> builder.displayItems(new RegistrateDisplayItemsGenerator("item", REGISTRATE))
-                    .icon(() -> GTItems.BASIC_TAPE.asStack())
+                    .icon(() -> GTItems.COIN_GOLD_ANCIENT.asStack())
                     .title(REGISTRATE.addLang("itemGroup", GTCEu.id("item"), GTCEu.NAME + " Items"))
                     .build())
             .register();
