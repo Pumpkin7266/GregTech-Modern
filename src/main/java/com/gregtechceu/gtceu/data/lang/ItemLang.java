@@ -64,7 +64,6 @@ public class ItemLang {
         provider.add("item.gtceu.osmium_credit.tooltip", "§74096 Credits");
         provider.add("item.gtceu.naquadah_credit.tooltip", "§732768 Credits");
         provider.add("item.gtceu.neutronium_credit.tooltip", "§7262144 Credits");
-        provider.add("item.gtceu.ancient_gold_coin.tooltip", "§7Found in ancient Ruins");
         provider.add("item.gtceu.empty_mold.tooltip", "§7Raw Plate to make Molds and Extrude Shapes");
         provider.add("item.gtceu.nano_saber.tooltip", "§7Ryujin no ken wo kurae!");
         provider.add("item.gtceu.plate_casting_mold.tooltip", "§7Mold for making Plates");
